@@ -15,9 +15,9 @@ setup(
   keywords=['machine-learning', 'tensorflow', 'recommendation-system', 'python', 'recommender-system'],
   classifiers=[],
   install_requires=[
-      "numpy>=1.14.1",
-      "scipy>=0.19.1",
+      "numpy==1.14.5",
+      "scipy==1.1.0",
       "six==1.11.0",
-      "tensorflow<=1.15.0",
+      "tensorflow==1.10",
   ],
 )
